@@ -1,0 +1,59 @@
+------My Solana Development Public key and phrases--------
+phantom pubkey:: 6khSoTaoEE4NejHE9Zop1vG9mCcbnjEobAFBeNt9CrD1
+phantom phrase:: scale prepare inform olive april cube cake wasp exotic
+
+
+
+CMD pubkey:: DFhU7R5p4bU1bFhEiJGAzJDjNhU3rCcF2bjdaqd9g3bL
+CMD phrases:  smile radio swear cloth quick disorder owner inspire juice stock promote arrow
+
+/* create-token
+Creating token 5FRQuJZMYW2hERGwnkBMUSu1TyG48EY9tnPNvjbZDALH under program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
+
+Address:  5FRQuJZMYW2hERGwnkBMUSu1TyG48EY9tnPNvjbZDALH
+Decimals:  9
+
+Signature: 5QoZuTDwbbfQpqqRMvhisNKgGwEwTyX8FUxjcyj2zyorr2ipL55cFh7zKms6N4iziSwyxA3ZwA2Fb3ixZXvs1p3s
+
+/**
+spl-token create-account 5FRQuJZMYW2hERGwnkBMUSu1TyG48EY9tnPNvjbZDALH
+Creating account 7RoAJxi66KYPtGWMFypPqmzRJwGdZdct1CoQi3j4M2bB
+
+Signature: 57scGDxXcZsDQjA8B2iMEvYPcf1yjsKhsyX5QUWJHqc14wdQ9Y1FM6aDqfMnn6wjiwAockLteXdkV3RdNF7uJXYW
+/**  Mint tokens **/
+C:\Users\Administrator>spl-token mint 5FRQuJZMYW2hERGwnkBMUSu1TyG48EY9tnPNvjbZDALH 100000
+Minting 100000 tokens
+  Token: 5FRQuJZMYW2hERGwnkBMUSu1TyG48EY9tnPNvjbZDALH
+  Recipient: 7RoAJxi66KYPtGWMFypPqmzRJwGdZdct1CoQi3j4M2bB
+
+Signature: ycuaJSbj5s8zjwMsMgfnnncaP9urMGgEsJVYeNDZi8GnZTgDrU2Bith8pP77NpvAb1EY2nzR99B9XRGQ6w6GDPq
+/** Create NFT **/
+C:\Users\Administrator>spl-token create-token --decimals 0
+Creating token DXjkGtd8XsRPSxWMQY5h1DRDNPAHUmr79xZTg3iL25Fr under program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
+
+Address:  DXjkGtd8XsRPSxWMQY5h1DRDNPAHUmr79xZTg3iL25Fr
+Decimals:  0
+
+Signature: 2NWqZH8vp7Q6Kumu9mhC77Zzy89eUYr8oGsLd9pys1gS7pMbF5GMzCGBc3BX8Jkkrp1eqiB9hFwZh6tXgyf47qNc
+/** Authorizing **///
+C:\Users\Administrator>spl-token authorize DXjkGtd8XsRPSxWMQY5h1DRDNPAHUmr79xZTg3iL25Fr mint --disable
+Updating DXjkGtd8XsRPSxWMQY5h1DRDNPAHUmr79xZTg3iL25Fr
+  Current mint authority: B2X8CSwCXBpz1c9oBtig1xDEdnyzyV4gBrxCL8wbdeak
+  New mint authority: disabled
+
+Signature: RnBUbZUqq1F3XMUvmVhWaZr98xAQMLhSvFs6v1eY3ZKi5pgRXVGmQL4vn1hfz2K9RyYKLDufGBCxoQ6kN6nzWQf
+/** Sending token to Recipient**/
+C:\Users\Administrator>spl-token transfer --fund-recipient --allow-unfunded-recipient 5FRQuJZMYW2hERGwnkBMUSu1TyG48EY9tnPNvjbZDALH 10000 DZZfgk3ZppqmNew5NQ4iJJBEwujmKEC4rv1iDTXkAbPi
+Transfer 10000 tokens
+  Sender: 7RoAJxi66KYPtGWMFypPqmzRJwGdZdct1CoQi3j4M2bB
+  Recipient: DZZfgk3ZppqmNew5NQ4iJJBEwujmKEC4rv1iDTXkAbPi
+  Recipient associated token account: C4A2TxwCzvhYpAHuCagnkrckZ6ZqsMCeunA9zp5w7a7F
+  Funding recipient: C4A2TxwCzvhYpAHuCagnkrckZ6ZqsMCeunA9zp5w7a7F
+
+Signature: 5b3U4jQAB8CgY5Jy98FBhwKn2NfNMNaJ74MQ8JyFMQwk8CV718fcUJLHKsqB4pdi8NuwGoX8nLgwZSayvaAmDKeT
+
+---testnet Config
+Config File: C:\Users\Administrator\.config\solana\cli\config.yml
+RPC URL: https://api.mainnet-beta.solana.com
+WebSocket URL: wss://api.mainnet-beta.solana.com/ (computed)
+Keypair Path: C:\Users\Administrator\.config\solana\id.json
